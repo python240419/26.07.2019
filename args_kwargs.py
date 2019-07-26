@@ -38,7 +38,7 @@ printDictionary(name='danny',
 # statistics(k, **kwargs)
 # print - keys, values
 #  return- does k appear in dict?
-# *etgar - return a dict from kwargs
+# *etgar - return a list from kwargs
 
 
 
