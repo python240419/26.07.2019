@@ -1,0 +1,33 @@
+>>> t = (3)
+>>> t
+3
+>>> t = tuple(3)
+>>> t
+3
+>>> t + 3
+6
+>>> t
+3
+>>> t = (2)
+>>> t = (5, 8, 'a', 12)
+>>> t
+(5, 8, 'a', 12)
+>>> t[3]
+12
+>>> t[::-1]
+(12, 'a', 8, 5)
+>>> t[0] = 2
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'tuple' object does not support item assignment
+>>> len(t)
+4
+>>> t.index('a')
+2
+>>> t
+(5, 8, 'a', 12)
+>>> t.count(5)
+1
+>>> t = (1,2,2,2)
+>>> t
+(1, 2, 2, 2)
